@@ -5,7 +5,7 @@ library(ggplot2)
 library(data.table)
 library(reshape2)
 # Retrieve and display data
-setwd("C:/Users/shyam/Desktop/Movie-Recommendation-System-using-R_Project-main/Movie-Recommendation-System-using-R_Project-main")
+setwd("C:/Users/shyam/Desktop/Movie-Recommendation-System-using-R_Project-main/Movie-Recommendation-System-using-R_Project-main")  # Add your own path 
 movie_data <- read.csv("C:/Users/shyam/Desktop/Movie-Recommendation-System-using-R_Project-main/Movie-Recommendation-System-using-R_Project-main/IMDB-Dataset/movies.csv",stringsAsFactors=FALSE) # Add your own path  
 rating_data <- read.csv("C:/Users/shyam/Desktop/Movie-Recommendation-System-using-R_Project-main/Movie-Recommendation-System-using-R_Project-main/IMDB-Dataset/ratings.csv") # Add your own path 
 str(movie_data)
